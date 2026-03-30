@@ -2,8 +2,8 @@ import pandas as pd
 import statsmodels.api as sm
 
 # load data
-monthly = pd.read_csv("processed_data/master_monthly.csv")
-quarterly = pd.read_csv("processed_data/master_quarterly.csv")
+monthly = pd.read_csv("master_monthly.csv")
+quarterly = pd.read_csv("master_quarterly.csv")
 
 monthly = monthly.dropna()
 quarterly = quarterly.dropna()
